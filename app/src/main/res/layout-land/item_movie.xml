@@ -8,7 +8,7 @@
 
     <ImageView
         android:id="@+id/ivposter"
-        android:layout_width="120dp"
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
@@ -35,6 +35,6 @@
         android:layout_marginStart="5dp"
         android:layout_marginTop="5dp"
         android:layout_toEndOf="@+id/ivposter"
-        android:text="Fast Furious presents:" />
+        android:text="Fast Furious presents" />
 
 </RelativeLayout>

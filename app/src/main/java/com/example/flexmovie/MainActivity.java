@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
                 try {
                     JSONArray results = jsonObject.getJSONArray("results");
                     Log.i(TAG, "results " + results.toString());
-                    movies.addAll(Movie.fromjsonArray(results));
+                    movies.addAll(Movie.fromJsonArray(results));
                     movieAdapter.notifyDataSetChanged();
                     Log.i(TAG, "movies " + movies.size());
                 } catch (JSONException e) {
